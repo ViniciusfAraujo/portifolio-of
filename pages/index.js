@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Vinicius Araujo</title>
-        <link rel='icon' />
+        <link rel='icon' href='../image/faviconof.png'/>
       </Head>
 
       <Navbar/>

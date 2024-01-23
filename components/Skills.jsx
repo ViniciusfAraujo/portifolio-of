@@ -5,13 +5,13 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#A69958] font-mono'>#Skills</p>
-            <h2 className='py-4 text-[#F2EFEB]'>Tecnologias</h2>
+            <p className='text-xl tracking-widest uppercase text-[#888C81] font-mono'>#Skills</p>
+            <h2 className='py-4 text-[#0D0D0D]'>Tecnologias</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 '>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center  text-[#888C81] '>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript' width='64' height='64'/>
                         </div>
@@ -21,7 +21,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt='typescript' width='64' height='64'/>
@@ -32,7 +32,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='HTML' width='64' height='64'/>
@@ -43,7 +43,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='CSS' width='64' height='64'/>
@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='React.js' width='64' height='64'/>
@@ -65,7 +65,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt='Node.js' width='64' height='64' />
@@ -76,7 +76,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt='Python' width='64' height='64'/>
@@ -87,7 +87,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt='MySQL' width='64' height='64'/>
@@ -98,7 +98,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt='git' width='64' height='64'/>
@@ -109,7 +109,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#F2EFEB]'>
+                <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt='taiwind' width='64' height='64'/>

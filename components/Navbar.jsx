@@ -24,10 +24,10 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 shadow-2xl z-[100]'}>
+        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#F2EFEB]' : 'fixed w-full h-20 shadow-2xl z-[100] bg-[#F2EFEB]'}>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href='/'>
-                    <Image src="/image/logoof.png" alt="logo" width='125' height='50'/>
+                    <Image src="/image/Vinicius1.png" alt="logo" width='120' height='120'/>
                 </Link>
                 <div>
                     <ul className="hidden md:flex font-bold font-mono">
@@ -54,42 +54,40 @@ const Navbar = () => {
             </div>
 
             <div className={nav ? "md:hidden fixed left-0 top-0 h-screen w-full bg-black/50" : ''}>
-                <div className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#3D403A] p-10 ease-in duration-500" : " fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
+                <div className={nav ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#F2EFEB] p-10 ease-in duration-500" : " fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                     <div>
                         <div className="flex w-full items-center justify-between">
-                            <Image src='/image/logoof.png' alt="/" width='87' height='35' />
+                            <Image src='/image/Vinicius1.png' alt="/" width='100' height='100' />
                             <div onClick={handleNav}  className=" rounded-full shadow-lg p-3 cursor-pointer">
-                                <AiOutlineClose className="text-white"/>
+                                <AiOutlineClose className="text-black"/>
                             </div>
                         </div>
-                        <div className=" border-b border-gray-300 my-4">
-                            <p className="w-[85%] md:w-[90%] py-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, deleniti!</p>
-                        </div>
+                        
                     </div>
 
                     <div className=" py-4 flex flex-col">
                         <ul className=" uppercase font-mono font-semibold">
                             <Link href='/'>
-                                <li className="py-4 text-sm hover:scale-105 ease-in duration-150">Inicio</li>
+                                <li onClick={() => setNav(false)}  className="py-4 text-sm hover:scale-105 ease-in duration-150">Inicio</li>
                             </Link>
                             <Link href='/#about'>
-                                <li className="py-4 text-sm hover:scale-105 ease-in duration-150">Sobre</li>
+                                <li onClick={() => setNav(false)}  className="py-4 text-sm hover:scale-105 ease-in duration-150">Sobre</li>
                             </Link>
                             <Link href='/#skills'>
-                                <li className="py-4 text-sm hover:scale-105 ease-in duration-150">Skills</li>
+                                <li onClick={() => setNav(false)}  className="py-4 text-sm hover:scale-105 ease-in duration-150">Skills</li>
                             </Link>
                             <Link href='/#projects'>
-                                <li className="py-4 text-sm hover:scale-105 ease-in duration-150">Projetos</li>
+                                <li onClick={() => setNav(false)}  className="py-4 text-sm hover:scale-105 ease-in duration-150">Projetos</li>
                             </Link>
                             <Link href='/#contact'>
-                                <li className="py-4 text-sm hover:scale-105 ease-in duration-150">Contato</li>
+                                <li onClick={() => setNav(false)}  className="py-4 text-sm hover:scale-105 ease-in duration-150">Contato</li>
                             </Link>
                         </ul>
 
                         <div className="border-b border-gray-300 my-4"></div>
 
                         <div className="pt-1">
-                            <p className=" uppercase tracking-widest text-[#5651e5] ">Vamos nos conectar</p>
+                            <p className=" uppercase tracking-widest text-[#888C81]  ">Vamos nos conectar</p>
                             <div className=" flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <Link href="https://www.linkedin.com/in/vinicius-araujo-304601269/" target="_blank">
                                     <div className=" rounded-full shadow-lg shadow-gray-400 bg-[#D9D1C7] p-3 cursor-pointer hover:scale-105 ease-in duration-300">

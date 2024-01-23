@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5] font-mono'>#Contato</p>
+        <p className='text-xl tracking-widest uppercase text-[#888C81] font-mono'>#Contato</p>
         <h2 className='py-4'>Entre em contato</h2>
         <div className='flex lg:grid-cols-5 gap-8 items-center justify-center'>
           {/* left */}
@@ -62,31 +62,31 @@ const Contact = () => {
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
                       <label className=' uppercase text-sm py-2' >Nome</label>
-                      <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                      <input className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#c0c4ba]' type="text" />
                     </div>
                     <div className='flex flex-col'>
                       <label className=' uppercase text-sm py-2' >Telefone</label>
-                      <input className='border-2 rounded-lg p-3 flex border-gray-300' type="tel" />
+                      <input className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#c0c4ba]' type="tel" />
                     </div>
                   </div>
 
                   <div className='flex flex-col py-2'>
                     <label className=' uppercase text-sm py-2' >Email</label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email" id="email" />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#c0c4ba]' type="email" name="email" id="email" />
                   </div>
 
                   <div className='flex flex-col py-2'>
                     <label className=' uppercase text-sm py-2' >Assunto</label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="texto" id="texto" />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#c0c4ba]' type="text" name="texto" id="texto" />
                   </div>
 
                   <div className='flex flex-col py-2'>
                     <label className=' uppercase text-sm py-2' >Mensagem</label>
-                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows="10"></textarea>
+                    <textarea className='border-2 rounded-lg p-3 border-gray-300 bg-[#c0c4ba]' rows="10"></textarea>
                   </div>
 
-                  <button className='w-full p-4 text-gray-100 mt-4'>
-                    Send Message
+                  <button className='w-full p-4 text-gray-100 mt-4 hover:scale-95 ease-in-out duration-100'>
+                    Enviar mensagem
                   </button>
               </form>
 
@@ -97,7 +97,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30}/>
+              <HiOutlineChevronDoubleUp className='text-[#888C81]' size={30}/>
             </div>
           </Link>
         </div>

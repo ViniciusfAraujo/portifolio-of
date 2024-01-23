@@ -9,9 +9,9 @@ const PdfButton = () => {
   return (
     <button
       onClick={openPdfInNewWindow}
-      className={`hover:scale-110 ease-in duration-300 py-3 px-4 rounded-lg text-gray-50 flex items-center justify-center gap-2 w-max`}
+      className={`hover:scale-95 ease-in-out duration-100 py-3 px-4 rounded-lg text-gray-50 flex items-center justify-center gap-2 w-max`}
     >
-      Download CV
+      Currículo
     </button>
   );
 };

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import projetoRick from '../public/image/projetoRicy.png'
+import projetonetflix from '../public/image/clonenetflix.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -13,6 +14,7 @@ const Projects = () => {
             <h2 className='py-4'>Meus Projetos</h2>
             <div className='grid md:grid-cols-2 gap-8 '>
                 <ProjectItem title='Rick and Morty' backgroudImg={projetoRick} projectUrl="/projetoRick" />
+                <ProjectItem title='Clone Netflix' backgroudImg={projetonetflix} projectUrl="/projetoNetflix" />
             </div>
         </div>
     </div>

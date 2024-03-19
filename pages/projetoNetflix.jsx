@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import projetorick from '../public/image/projetoRicy.png'
+import projetonetflix from '../public/image/clonenetflix.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 const projectoRick = () => {
@@ -12,12 +12,12 @@ const projectoRick = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={projetorick}
+          src={projetonetflix}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Projeto Rick and Morty</h2>
-          <h3>HTML / CSS / JavaScript</h3>
+          <h2 className='py-2'>Projeto Clone do Netflix</h2>
+          <h3>React.js / Tailwind css</h3>
         </div>
       </div>
 
@@ -26,17 +26,17 @@ const projectoRick = () => {
           <p className='text-xl tracking-widest uppercase text-[#888C81]  font-mono'>#Projeto</p>
           <h2 className='py-4'>Visão geral</h2>
           <p>
-          Projeto que cria uma página da web interativa que permite aos usuários buscar e filtrar personagens da série <span className=' font-semibold text-[#3D403A]'>Rick and Morty</span>, usando <span className=' font-semibold text-[#3D403A]'>API: https://rickandmortyapi.com/</span>, com base em critérios como nome, espécie, gênero e status, e também permite carregar mais personagens à medida que o usuário rola a página. 
+          Este projeto consiste na criação de um clone do Netflix utilizando tecnologias como React.js, Tailwind CSS e integrando a API The Movie DB para obter informações sobre filmes, séries e programas de TV.
           </p>
           <a
-            href='https://github.com/ViniciusfAraujo/ricy-and-morty'
+            href='https://github.com/ViniciusfAraujo/netflix-react'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>GitHub</button>
           </a>
           <a
-            href='https://rick-and-morty-xi-indol.vercel.app/ '
+            href='https://netflix-react-lyart.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -48,13 +48,10 @@ const projectoRick = () => {
             <p className='text-center font-bold pb-2'>Tecnologias</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HTML
+                <RiRadioButtonFill className='pr-1' /> React.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Tailwind css
               </p>
             </div>
           </div>

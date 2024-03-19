@@ -112,10 +112,10 @@ const Skills = () => {
                 <div className=' p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-[#888C81]'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt='taiwind' width='64' height='64'/>
+                            <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt='taiwind' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Taiwind css</h3>
+                            <h3>Tailwind css</h3>
                         </div>
                     </div>
                 </div>

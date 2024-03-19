@@ -36,7 +36,7 @@ const projectoRick = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            // href='https://653fc22b363d300008e12f8c--viniciusfaraujo.netlify.app/ '
+            href='https://653fc22b363d300008e12f8c--viniciusfaraujo.netlify.app/ '
             target='_blank'
             rel='noreferrer'
           >
